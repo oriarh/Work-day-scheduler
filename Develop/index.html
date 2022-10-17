@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -28,11 +29,58 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <p id="appointmentLogged" class="message">Appointment Added to <span class="localStorage"> localStorage ✔️</span></p>
+    <div class="container.fluid">
       <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">9AM</div>
+        <input type="text" id="9" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">10AM</div>
+        <input type="text" id="10" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">11AM</div>
+        <input type="text" id="11" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">12pm</div>
+        <input type="text" id="12" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">1pm</div>
+        <input type="text" id="13" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">2pm</div>
+        <input type="text" id="14" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">3pm</div>
+        <input type="text" id="15" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">4pm</div>
+        <input type="text" id="16" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 text-right align-self-center time">5PM</div>
+        <input type="text" id="17" class="col-sm-10 text-left textarea">
+        <button id="button1" class="col-sm roundedcorners">💾</button>
+      </div>      
     </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
