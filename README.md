@@ -17,6 +17,8 @@ When the user opens the above provided URL, they are presented with a clean and 
 
 The user can type any event for the day and click the save button to save it to local storage.
 
+There is also a "Reset" button at the bottom that clears the whole schedule.
+
 The color of the time blocks also changes depending on current time.
 
 Even after the page is reloaded they will still have their event saved.
