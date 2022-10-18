@@ -27,26 +27,11 @@ body {
   white-space: pre-wrap;
 }
 
-/*
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-*/
-
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
-
-/* added to time
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-*/
 
 .past {
   background-color: #d3d3d3;
@@ -62,13 +47,6 @@ body {
   background-color: #77dd77;
   color: black;
 }
-
-/* added to roundedcorners
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-*/
 
 .time {
   padding: 31px;
@@ -99,4 +77,9 @@ body {
 .localStorage {
   font-family: 'lora', 'sans- serif';
   text-align: center;
+}
+
+.reset {
+  text-align: center;
+  margin: 20px;
 }

@@ -86,3 +86,7 @@ $("input").each(function(){
         $(this).addClass("future");
     };
 });
+
+$(".reset").on("click",function(){
+    localStorage.clear ();
+});
